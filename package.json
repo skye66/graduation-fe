@@ -1,0 +1,35 @@
+{
+  "name": "graduation-fe",
+  "version": "1.0.0",
+  "description": "毕设前端项目",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^1.15.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^0.5.8",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "scripts": {
+    "dev" : "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
+    "dist" : "set WEBPACK_ENV=online && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skye66/graduation-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skye66/graduation-fe/issues"
+  },
+  "homepage": "https://github.com/skye66/graduation-fe#readme"
+}
